@@ -2,7 +2,6 @@ class Solution:
     def check(self,nums,i,j,table,result,c):
         flag = 0
         a = [nums[i],nums[j],c]
-        #print (a)
         a.sort()
         for q in table:
             if q == a:

@@ -1,6 +1,6 @@
 class Solution:
     def find132pattern(self, nums):
-        if len(nums)==0:
+        if len(nums) == 0:
             return False
         minn = nums[0]
         for i in range(1,len(nums)):
